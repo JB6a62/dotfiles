@@ -1,0 +1,27 @@
+[submodule "vim/.vim/bundle/vim-snippets"]
+	path = vim/.vim/bundle/vim-snippets
+	url = https://github.com/honza/vim-snippets
+[submodule "vim/.vim/bundle/vim-snipmate"]
+	path = vim/.vim/bundle/vim-snipmate
+	url = https://github.com/garbas/vim-snipmate
+[submodule "vim/.vim/bundle/vim-addon-mw-utils"]
+	path = vim/.vim/bundle/vim-addon-mw-utils
+	url = https://github.com/marcweber/vim-addon-mw-utils
+[submodule "vim/.vim/bundle/tlib_vim"]
+	path = vim/.vim/bundle/tlib_vim
+	url = https://github.com/tomtom/tlib_vim
+[submodule "vim/.vim/bundle/Vundle.vim"]
+	path = vim/.vim/bundle/Vundle.vim
+	url = https://github.com/VundleVim/Vundle.vim
+[submodule "vim/.vim/bundle/vim-fugitive"]
+	path = vim/.vim/bundle/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive
+[submodule "vim/.vim/bundle/nerdcommenter"]
+	path = vim/.vim/bundle/nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter
+[submodule "vim/.vim/bundle/taglist.vim"]
+	path = vim/.vim/bundle/taglist.vim
+	url = https://github.com/vim-scripts/taglist.vim
+[submodule "vim/.vim/bundle/tagbar"]
+	path = vim/.vim/bundle/tagbar
+	url = https://github.com/majutsushi/tagbar
