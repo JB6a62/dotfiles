@@ -34,7 +34,8 @@ bindsym $mod+Shift+Tab exec termite
 bindsym $mod+Shift+q kill
 
 # start program launcher
-bindsym $mod+d exec --no-startup-id rofi -show run
+bindsym $mod+d exec --no-startup-id dmenu_run
+bindsym $mod+Shift+d exec dmenu_ssh
 bindsym $mod+Tab exec --no-startup-id rofi -show window
 
 # Audio controls
@@ -237,7 +238,7 @@ mode "resize" {
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 #exec --no-startup-id nitrogen --restore;
 exec sleep 1; compton -b
-exec feh --bg-scale ~/Pictures/alena-aenami-sky1k.jpg
+exec feh --bg-scale ~/alena-aenami.jpg
 #exec --no-startup-id nm-applet
 #exec --no-startup-id pamac-tray
 #exec --no-startup-id blueman

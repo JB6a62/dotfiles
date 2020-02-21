@@ -4,7 +4,7 @@
 #Path to your oh-my-zsh installation.
 export ZSH=/home/josh/.oh-my-zsh
 
-export TERM="xterm-256color"
+export TERM="termite"
 
 #Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -83,9 +83,11 @@ cdpath=($HOME/Documents/Projects $HOME/Documents/UTCN)
 #   export EDITOR='mvim'
 # fi
 
-export VISUAL=vim
+export VISUAL=nvim
 export EDITOR=$VISUAL
 export GIT_EDITOR=$VISUAL
+alias vim="nvim"
+alias edit="nvim"
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -101,5 +103,12 @@ export GIT_EDITOR=$VISUAL
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias weather="curl wttr.in/norwich"
+alias weather="curl wttr.in/cambridge"
 alias smug="clear && neofetch --ascii_distro arch --w3m ~/Pictures/smug.png"
+
+export distro='Arch Linux x86_64'
+
+pastesrv() {
+	scp  $1 freebsd@6a62.me:/usr/home/freebsd/paste/
+	echo "https://6a62.me/paste/$1" | xclip -selection clipboard
+}
