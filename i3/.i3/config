@@ -34,8 +34,7 @@ bindsym $mod+Shift+Tab exec termite
 bindsym $mod+Shift+q kill
 
 # start program launcher
-bindsym $mod+d exec --no-startup-id dmenu_run
-bindsym $mod+Shift+d exec dmenu_ssh
+bindsym $mod+d exec --no-startup-id rofi -show run
 bindsym $mod+Tab exec --no-startup-id rofi -show window
 
 # Audio controls
