@@ -52,4 +52,8 @@ set completeopt=noinsert,menuone,noselect
 " our wiki page for a list of sources: https://github.com/ncm2/ncm2/wiki
 Plug 'ncm2/ncm2-bufword'
 Plug 'ncm2/ncm2-path'
+Plug 'ncm2/ncm2-ultisnips'
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
+Plug 'ncm2/ncm2-jedi'
 call plug#end()
